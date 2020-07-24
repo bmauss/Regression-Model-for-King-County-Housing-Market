@@ -44,24 +44,28 @@ We cross referenced four separate plots using the coordinates of the homes in ou
 
 Here, we see that prices of homes increase as you get into the Bellevue, Kirkland, and Redmond Area.  House prices **drop** as you head **south**.  It was a bit suspicious to see so many home's that the map's legend claimed had a price of "0". To ease our suspicions, we made another plot which filtered out every value above 140,000.    
 
-Next, we looked at a map of the grade of homes.
+![Imgur](https://i.imgur.com/kcyyvnk.png)
 
-![Imgur](https://i.imgur.com/XkJNK0o.png)
+This greatly clarified the pricing situation and also gave us a clue on where to start looking for homes.  Around latitude 47.5, longitude -122.35, you'll see a cluster of homes that are reasonably priced and not too far from Seattle to boot.  
 
-Remember: We're looking for a home with a grade of 6 or more.  According to this map, there is no shortage of grade 8 homes in the area.  If you draw your eyes to latitude 47.5, longitude -122.3 ~ -122.35, you'll see a cluster of homes that are in the greater Seattle area that have **grades from 6 to 8**. 
+With these coordinates in mind, we examined the **grades** these homes received to see if they met our criteria.
 
-Last, we plotted a map of the houses with a condition of 2 (fair).  A lower house condition will help offset the price of a higher grade.
+![Imgur](https://i.imgur.com/tFBIeGg.png)
 
-![Imgur](https://i.imgur.com/yVHiuHI.png)
+Remember: We're looking for a home with a grade of 6 or more. Drawing your eyes to the **cluster** of reasonably priced homes, it appears many of these homes have **grades ranging from 6 to 8**. 
 
-There we go! In that cluster we were looking at in the previous map, we see plenty of homes with a **condition of 2**.  This is the best place to look for a home to flip as the area is **less expensive**, has homes with a **minimum grade of 6**, and are in **fair condition**.
+So far the homes in this cluster have met 2 two of our conditions: they're reasonably priced and have a decent grade. Last, we plotted a map of the houses with a condition rating of 2 (fair).
 
-So where is this place? Plug in the coordinates to Google Maps and we get...
+![Imgur](https://i.imgur.com/dnuiVWw.png)
+
+There we go! In that **cluster** we see plenty of homes with a **condition rating of 2**.  The homes in this area  have surprisingly **met all three of our conditions**.  They're generally **less expensive**, has have a **minimum grade of 6**, and are in **fair condition**.
+
+So where is this place? Plug the coordinates into Google Maps and we get...
 
 ![Imgur](https://i.imgur.com/P23QDNe.png)
 
-White Center, Washington and the Highline, Seattle area!
+**White Center** and the **Highline Seattle** area!
 
 #### Recommendation:
-Search for homes south of Seattle in the **White Center/Highline** area.  Again, look for homes in **fair condition** and has a **minimum grade** of 6. 
+Search for homes south of Seattle in the **White Center/Highline** area.  Again, look for homes in **fair condition** and have a **minimum grade of 6**. 
 
