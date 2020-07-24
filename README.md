@@ -38,17 +38,17 @@ Purchase a home in a **fair condition** and has a **minimum grade of 6**. Put in
 
 ### Where should we look for a home?
 
-We made three separate plots using the coordinates of the homes in our dataset.
+We cross referenced four separate plots using the coordinates of the homes in our dataset.
 
 ![Imgur](https://i.imgur.com/Q7bLsSu.png)
 
-Here, we see that prices of homes increase as you get into the Bellevue, Kirkland, and Redmond Area.  House prices **drop** as you head **south**.  
+Here, we see that prices of homes increase as you get into the Bellevue, Kirkland, and Redmond Area.  House prices **drop** as you head **south**.  It was a bit suspicious to see so many home's that the map's legend claimed had a price of "0". To ease our suspicions, we made another plot which filtered out every value above 140,000.    
 
-Next we looked at a map of the grade of homes.
+Next, we looked at a map of the grade of homes.
 
 ![Imgur](https://i.imgur.com/XkJNK0o.png)
 
-Remember: we're looking for a home with a grade of 6 or more.  According to this map, there is no shortage of grade 8 homes in the area.  If you draw your eyes to latitude 47.5, longitude -122.3 ~ -122.35, you'll see a cluster of homes that are in the greater Seattle area that have **grades from 6 to 8**. 
+Remember: We're looking for a home with a grade of 6 or more.  According to this map, there is no shortage of grade 8 homes in the area.  If you draw your eyes to latitude 47.5, longitude -122.3 ~ -122.35, you'll see a cluster of homes that are in the greater Seattle area that have **grades from 6 to 8**. 
 
 Last, we plotted a map of the houses with a condition of 2 (fair).  A lower house condition will help offset the price of a higher grade.
 
