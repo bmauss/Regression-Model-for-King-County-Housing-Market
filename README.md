@@ -59,7 +59,7 @@ Purchase a home in a **fair condition** and has a **minimum grade of 6**. Put in
 
 We cross referenced four separate plots using the coordinates of the homes in our dataset.
 
-![Imgur](https://i.imgur.com/dHVQ16W.png)
+![Imgur](https://i.imgur.com/e8Y72YT.png)
 
 Here, we see that prices of homes increase as you get into the Bellevue, Kirkland, and Redmond Area.  House prices **drop** as you head **south**.  It was a bit suspicious to see so many home's that the map's legend claimed had a price of "0". To ease our suspicions, we made another plot which filtered out every value above 140,000.    
 
@@ -92,15 +92,15 @@ Search for homes south of Seattle in the **White Center/Highline** area.  Again,
 
 The baseline model was quite rough. 
 
-![Imgur](https://i.imgur.com/VLm3sLH.png)
+![Imgur](https://i.imgur.com/WFQJEgv.png)
 
 We see here that the Adjusted R-squared value is 0.722, meaning that the model can only explain 72.2% of the residual errors. 
 
-![Imgur](https://i.imgur.com/IpnpVWv.png)
+![Imgur](https://i.imgur.com/C0yALiJ.png)
 
 The skew of the errors weren't too bad, but the kurtosis denoted that the distribution of the residuals was very "peaky".
 
-![Imgur](https://i.imgur.com/9KzngyU.png)
+![Imgur](https://i.imgur.com/eRboNib.png)
 
 Lastly, the RMSE was pretty bad.  I then took to removing outliers from our conituous variables and re-ran the model to see that the R-squared value dropped to 0.704, the kurtosis did improve substantially, though.  
 
@@ -110,7 +110,7 @@ We tried performing **log transformations**, but that **dropped the R-squared** 
 
 Finally, we tried **Step-wise selection** on an earlier model that had the most variables available to find the optimum combination of features based on their p-values.  This actually raised some questions.  For one, even though the R-squared increased to  0.722, the **RMSE was identical** to the model whose R-squared was 0.704.  Additionally, the algorithm determinded that several variables had a p-value of **zero**.
 
-![Imgur](https://i.imgur.com/13qYiR3.png)
+![Imgur](https://i.imgur.com/Evio4S1.png)
 
 Reluctant to believe that whether or not a home was viewed was a perfect predictor of a home's price (as that is how I interpreted this), we went back to the model that with an R-squared value of **0.704**.  As a final "Hail Mary", we **added interactions** to the model and saw an **increase in R-squared** and a **decrease in skew, kurtosis, and RMSE**!
 
